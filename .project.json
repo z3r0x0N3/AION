@@ -5,7 +5,7 @@
   "origin_path": null,
   "creation_timestamp": "2026-05-14T06:10:59",
   "preferred_credentials": "GENESIS",
-  "auto_commit_enabled": false,
+  "auto_commit_enabled": true,
   "localsync_enabled": false,
   "localsync_path": null,
   "redacted": true,
@@ -13,5 +13,5 @@
     "Redacted"
   ],
   "last_focused_timestamp": "2026-05-15T06:15:52",
-  "last_known_commit": "d02ad397e76e475bc2e18e135814795de42c422b"
+  "last_known_commit": "5b7d72ea244b7ee16ea6c05cee69a320bf685096"
 }
