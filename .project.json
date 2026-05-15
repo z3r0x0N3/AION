@@ -5,13 +5,13 @@
   "origin_path": null,
   "creation_timestamp": "2026-05-14T06:10:59",
   "preferred_credentials": "GENESIS",
-  "auto_commit_enabled": true,
+  "auto_commit_enabled": false,
   "localsync_enabled": false,
   "localsync_path": null,
   "redacted": true,
   "tags": [
     "Redacted"
   ],
-  "last_focused_timestamp": "2026-05-15T06:15:52",
-  "last_known_commit": "328b58a22b7f9a4c18864182f6f18d8752bc1300"
+  "last_focused_timestamp": "2026-05-15T08:14:06",
+  "last_known_commit": "de859c330e0f90e2435ed7d42d38d0e9546e4976"
 }
