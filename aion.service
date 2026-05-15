@@ -1,0 +1,16 @@
+[Unit]
+Description=AION Cognitive Engine Daemon
+Documentation=https://github.com/anomalyco/AION
+After=network.target local-fs.target
+
+[Service]
+Type=simple
+ExecStart=%h/PROJECTS/AION/.venv/bin/python %h/PROJECTS/AION/src/aion/aiond.py --root %h --max-nodes 200
+Restart=on-failure
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:%h/.aion/aiond.log
+StandardError=append:%h/.aion/aiond.log
+
+[Install]
+WantedBy=default.target
